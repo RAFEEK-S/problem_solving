@@ -14,21 +14,21 @@ console.log(results);
 var people = [
   {
     firstname: "Jimmy",
-    lastname: "Brown",
+    lastname: "Brown"
   },
   {
     firstname: "Cindy",
-    lastname: "Malcolm",
+    lastname: "Malcolm"
   },
   {
     firstname: "Timothy",
-    lastname: "Stumps",
-  },
-];
+    lastname: "Stumps"
+  }
+]
 
 function fullNames(element, index) {
-  var fullnames = [index + ":" + element.firstname,element.lastname].join(" ");
-  return fullnames;
+  var listNames = [index + ":" + element.firstname,element.lastname].join("");
+  return listNames;
 }
 
 console.log(people.map(fullNames));
