@@ -1,3 +1,6 @@
+
+// Find foctors of number less than 1000;
+
 var input = 6;
 
 var facNum = [];
